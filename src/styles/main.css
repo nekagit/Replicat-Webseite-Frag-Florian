@@ -388,7 +388,7 @@ template {
 @keyframes fadeInUpInput {
   0% {
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(-5px);
   }
   70% {
     opacity: 0.3;
@@ -401,9 +401,6 @@ template {
 
 img {
   animation: fadeInUpP 1.5s ease-out;
-}
-p {
-  animation: fadeInUpP 0.5s ease-out;
 }
 
 input {
