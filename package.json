@@ -17,7 +17,7 @@
     "@types/prismjs": "^1.26.4",
     "@vueuse/core": "^10.10.0",
     "@vueuse/head": "^2.0.0",
-    "@vueuse/motion": "^2.2.3",
+    "@vueuse/motion": "^2.2.5",
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",

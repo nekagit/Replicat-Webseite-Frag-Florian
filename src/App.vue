@@ -1,6 +1,6 @@
 <!-- App.vue -->
 <template>
-  <NavBar />
+  <NavBarMenu />
   <transition name="fade" mode="out-in">
     <router-view v-if="!isLoading" class="bg-white dark:bg-[#090E19] text-black dark:text-white" />
   </transition>
@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
-import NavBar from '@/components/Florian/NavBar.vue';
+import NavBarMenu from '@/components/Florian/NavBarMenu.vue';
 const isLoading = ref(true)
 
 onMounted(() => {
